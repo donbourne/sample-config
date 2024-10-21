@@ -4,7 +4,7 @@
 version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
-  version: ""
+  version: "a8934564-aa74-424e-be16-832ffdb63d22"
   
   # number of instances
   instances:
@@ -28,3 +28,4 @@ app:
     - name: some_liberty_variable_name
       value: "some_liberty_variable_value"
       
+  endpoints: public
